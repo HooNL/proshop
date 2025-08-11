@@ -9,11 +9,14 @@ const ProductScreen = () => {
   const product = products.find((p) => p._id === productID)
 
   return (
+    // rounded, roundedCircle, thumbnail
     <>
-      <Link to="/" className="btn btn-light my-3">Go Back</Link>
+      <Link to="/" className="btn btn-light my-3">
+        Go Back
+      </Link>
       <Row>
         <Col md={5}>
-          <Image src={product.image} alt={product.name} fluid />
+          <Image src={product.image} alt={product.name} fluid rounded />
         </Col>
         <Col md={4}>
           <ListGroup variant="flush">
