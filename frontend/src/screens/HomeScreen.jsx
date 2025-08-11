@@ -1,8 +1,8 @@
-import {Row, Col} from 'react-bootstrap';
-import products from '../products';
-import { Product } from '../components/Product'
+import { Row, Col } from "react-bootstrap"
+import products from "../products"
+import { Product } from "../components/Product"
 
-export default function HomeScreen() {
+const HomeScreen = () => {
   return (
     <>
       <h1>Latest Products</h1>
@@ -19,4 +19,4 @@ export default function HomeScreen() {
   )
 }
 
-  
+export default HomeScreen
