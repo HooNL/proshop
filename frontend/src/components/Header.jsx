@@ -19,14 +19,14 @@ export const Header = () => {
             <Nav className="ms-auto">
               <LinkContainer to="/cart">
                 <Nav.Link>
-                  <FaShoppingCart /> Cart{" "}
+                  <FaShoppingCart /> Cart
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/cart">
+              {/* <LinkContainer to="/cart">
                 <Nav.Link>
                   <span className="badge bg-secondary">0</span>
                 </Nav.Link>
-              </LinkContainer>
+              </LinkContainer> */}
               <LinkContainer to="/login">
                 <Nav.Link>
                   <FaUser /> Login
